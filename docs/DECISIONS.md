@@ -1,8 +1,9 @@
 # Owner Decision Ledger
 
 Append-only record of decisions approved by the project owner. Normative scope stays in
-`Markdown/01_PRD_v1.1.md` … `05-EVALUATION-PLAN.md`; this ledger records *when* a choice was
-approved and *where* the spec text still has to catch up. Do not use it to add scope.
+`docs/specs/01_PRD_v1.1.md` … `docs/specs/05-EVALUATION-PLAN.md`; this ledger records *when*
+a choice was approved and *where* the spec text still has to catch up. Do not use it to add
+scope.
 
 ---
 
