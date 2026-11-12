@@ -1,0 +1,21 @@
+Invoice processing — synthetic brief (fictional logistics firm)
+
+Our finance team receives supplier invoices as PDF attachments by email. Today
+one person opens each invoice, retypes the supplier name, invoice number, dates,
+line items and totals into our accounting system, and then forwards anything
+above a threshold to a manager for approval. In a busy month that is a few
+thousand invoices, and the retyping is both slow and error-prone.
+
+We would like the invoice to be read automatically. The system should take the
+PDF, pull out the fields we care about, and store the result so our finance team
+can look it up later. If the extraction looks uncertain — for example the totals
+do not add up, or a field is missing — the invoice should not be posted silently;
+someone from finance needs to check it. Once an invoice is accepted, the
+supplier should be told that we have received it, and invoices over our approval
+threshold need to reach the right manager.
+
+Invoices arrive throughout the month with a lump at month end. We have not
+decided whether the original PDFs must be kept for audit, and we have not
+settled how long extracted data should stay in the system. We also do not know
+yet whether any of our suppliers send scanned paper invoices rather than digital
+PDFs, which may change what the reading step has to cope with.

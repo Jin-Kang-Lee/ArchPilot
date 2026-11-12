@@ -80,3 +80,23 @@ Not approved in this task: AI agents, LLM adapters, persistence, frontend, valid
 rules, capability vocabulary, synthetic brief fixtures. `M1-T02` requires separate approval.
 
 Related: `04-DEVELOPMENT-PLAN.md` §5 `M1-T01`.
+
+## D-008 — `M1-T02` scope boundary (approved 12 Nov 2026)
+
+Approved for implementation: `ProjectCreate` input contract with contract limits, the five
+discovery-phase enums, the versioned 14-entry capability vocabulary at `catalog/` plus its
+Python loader, three synthetic briefs, and model-level tests. No HTTP route, no
+`Requirement`/`EvidenceRef`/`Claim`, no graph or AWS service data.
+
+Four sub-decisions approved in the same review:
+
+1. `Requirement`, `EvidenceRef` and `Claim` are deferred to `M1-T03`, where reconciliation
+   logic first exercises their rules.
+2. `catalog/capabilities.json` stays at the repository root; the loader lives in
+   `backend/app/catalog/`.
+3. Capability `aliases` are included now, with case-insensitive collision validation.
+4. The five discovery enums stay together in `app/models/enums.py`; graph, finding,
+   mapping and review states are added by the tasks that consume them.
+
+Related: `04-DEVELOPMENT-PLAN.md` §5 `M1-T02`; `03-DATA-CONTRACTS.md` §3.1, §3.3, §4.1,
+§5.1.

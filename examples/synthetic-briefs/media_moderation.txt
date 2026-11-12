@@ -1,0 +1,23 @@
+Media moderation service — synthetic brief (fictional marketplace)
+
+We run a second-hand marketplace where sellers upload photos and short videos of
+the items they are listing. Listings appear immediately today, and our small
+trust-and-safety team reviews complaints after the fact. That model does not
+scale: we now receive a few thousand uploads on a normal day and roughly ten
+times that during weekend promotions, when listing volume spikes for a few
+hours and then drops back.
+
+We want automated moderation of uploaded images and short videos before a
+listing goes live. The system should flag content that clearly breaks our rules
+— prohibited items, violent imagery, nudity, misleading photos — and route those
+listings to a human for a final decision. Content that looks clean should be
+published without waiting for a person.
+
+Two things are still being debated internally. First, whether moderation must
+finish before publication or whether listings can be published and then pulled
+if a problem is found. Second, how long we are allowed to keep copies of the
+uploaded media and the moderation decisions; our legal team has not settled this
+yet.
+
+We do not have a fixed traffic forecast beyond "spiky", and we have not measured
+how long a single image or video analysis takes today.

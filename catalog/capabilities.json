@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "capabilities": [
+    {
+      "capability_id": "web_ui",
+      "description": "End-user web interface that sends requests to a backend.",
+      "aliases": ["frontend", "user_interface"]
+    },
+    {
+      "capability_id": "api_backend",
+      "description": "HTTP application boundary that receives UI and API traffic.",
+      "aliases": ["api", "backend_service"]
+    },
+    {
+      "capability_id": "authentication",
+      "description": "Verifies the identity of a user or calling system.",
+      "aliases": ["auth", "identity"]
+    },
+    {
+      "capability_id": "object_storage",
+      "description": "Stores uploaded files, media or documents as objects.",
+      "aliases": ["file_storage", "blob_storage"]
+    },
+    {
+      "capability_id": "data_storage",
+      "description": "Persists structured application records.",
+      "aliases": ["database", "persistent_store"]
+    },
+    {
+      "capability_id": "document_ingestion",
+      "description": "Parses or loads source documents into a usable form.",
+      "aliases": ["document_parsing", "document_loader"]
+    },
+    {
+      "capability_id": "document_retrieval",
+      "description": "Retrieves relevant knowledge passages for a request.",
+      "aliases": ["knowledge_retrieval", "document_search"]
+    },
+    {
+      "capability_id": "llm_inference",
+      "description": "Language-model inference over supplied prompts and context.",
+      "aliases": ["llm", "language_model"]
+    },
+    {
+      "capability_id": "model_inference",
+      "description": "General model execution such as classification or extraction.",
+      "aliases": ["ml_inference", "model_execution"]
+    },
+    {
+      "capability_id": "message_queue",
+      "description": "Buffers asynchronous jobs between a producer and a consumer.",
+      "aliases": ["queue", "job_queue"]
+    },
+    {
+      "capability_id": "async_worker",
+      "description": "Processes queued work outside the request path.",
+      "aliases": ["background_worker", "job_processor"]
+    },
+    {
+      "capability_id": "notification",
+      "description": "Delivers an event or message to a person or system.",
+      "aliases": ["alerts", "user_notification"]
+    },
+    {
+      "capability_id": "human_review",
+      "description": "Routes an outcome to a person for manual decision.",
+      "aliases": ["manual_review", "approval_step"]
+    },
+    {
+      "capability_id": "observability",
+      "description": "Collects logs, metrics and traces for a running system.",
+      "aliases": ["logging", "monitoring"]
+    }
+  ]
+}

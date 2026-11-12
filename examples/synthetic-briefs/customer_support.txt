@@ -1,0 +1,24 @@
+Customer support assistant — synthetic brief (fictional company)
+
+We are a mid-sized online retailer with roughly 40 staff and we want to reduce
+the load on our support inbox. Our agents currently answer around 10,000
+customer conversations per day across chat and email, and most questions repeat
+the same themes: delivery status, returns and exchanges, product sizing, and how
+to reset a password.
+
+We would like an AI assistant that answers customer questions using our internal
+documentation — help-centre articles, policy pages and our returns process. The
+content already exists but is spread across several systems and some of it is out
+of date.
+
+Our customers write in both English and Chinese, and we do not want to force
+anyone into English. The assistant should reply in the language the customer
+used.
+
+These conversations contain sensitive customer data: names, order references,
+partial addresses and, in some cases, details about a complaint. We are careful
+about who can see that data.
+
+Budget is limited for this project. We are a small team and we do not have
+dedicated platform engineers, so whatever we build needs to be operated by the
+same people who support customers today.
